@@ -64,6 +64,22 @@ form h2 {
   padding: 5px 0;
   border-bottom: 2px solid #d9d9d9;
 }
+
+.input-div:after, .input-div:before{
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  width: 50%;
+  height: 2px;
+  background-color: #4776E6;
+}
+.input-div:after {
+  right: 50%;
+}
+.input-div:before{
+  left: 50%;
+}
+
 .input-div.focus .i i{
   color: #4776E6;
 }
