@@ -65,7 +65,7 @@ form h2 {
   border-bottom: 2px solid #d9d9d9;
 }
 .input-div.focus .i i{
-  color: #314755;
+  color: #4776E6;
 }
 .input-div.focus div h5{
   top: -5px;
@@ -137,8 +137,10 @@ a:hover {
   padding: 1rem;
   font-size: 1.2rem;
   outline: none;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
   border: none;
-  background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+  /* background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%); */
   cursor: pointer;
   color: #fff;
   text-transform: uppercase;
