@@ -63,13 +63,14 @@ form h2 {
   margin: 25px 0;
   padding: 5px 0;
   border-bottom: 2px solid #d9d9d9;
+  transition: .3s;
 }
 
 .input-div:after, .input-div:before{
   content: '';
   position: absolute;
   bottom: -2px;
-  width: 50%;
+  width: 0  ;
   height: 2px;
   background-color: #4776E6;
 }
@@ -78,6 +79,10 @@ form h2 {
 }
 .input-div:before{
   left: 50%;
+}
+
+.input-div.focus:after, .input-div.focus:before{
+  width: 50%;
 }
 
 .input-div.focus .i i{
@@ -100,6 +105,7 @@ form h2 {
 }
 .i i {
   color: #d9d9d9;
+  transition: .3s;
 }
 
 .input-div > div {
